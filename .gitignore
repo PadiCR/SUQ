@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Release zips and editor / OS files
+*.zip
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store

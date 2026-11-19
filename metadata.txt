@@ -1,0 +1,25 @@
+[general]
+name=SUQ (Slope Units for QGIS)
+qgisMinimumVersion=3.28
+qgisMaximumVersion=4.99
+description=Delineation of slope units from a DEM: create, clean, metrics, parameter optimization and nested multi-scale slope units. Based on the GRASS r.slopeunits toolset, with no GRASS installation needed.
+version=1.0.0
+author=Cristobal Padilla
+email=cristobalpadilla@gmail.com
+
+about=Slope units are terrain units bounded by drainage and divide lines, widely used for landslide susceptibility and geomorphological mapping. SUQ creates slope units from a DEM, merges small units (by longest border, similar aspect or hydrologically consistent rules), computes quality metrics, searches the best parameters and builds nested multi-scale slope units. Alluvial plains and water bodies can be detected and left out as separate classes. Based on r.slopeunits v1.0/v2.0 by I. Marchesini and M. Alvioli (CNR-IRPI); please cite Alvioli et al. (2016, GMD 9:3975-3991) and Alvioli & Marchesini (2025). Requires only NumPy, SciPy and GDAL, bundled with QGIS; GRASS GIS is optional.
+
+tracker=https://github.com/PadiCR/SUQ/issues
+repository=https://github.com/PadiCR/SUQ
+homepage=https://github.com/PadiCR/SUQ
+
+changelog=1.0.0 First public release.
+
+hasProcessingProvider=yes
+tags=geomorphology,slope units,landslide,susceptibility,terrain,dem,hydrology,watershed,r.slopeunits,processing
+
+category=Analysis
+icon=icon.svg
+experimental=False
+deprecated=False
+supportsQt6=True
